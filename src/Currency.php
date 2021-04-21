@@ -2,7 +2,7 @@
 
 namespace Stephenjude\Enums;
 
-class Status
+class Currency
 {
     public const USD = 'usd';
     public const CAD = 'cad';
