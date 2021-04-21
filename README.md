@@ -4,16 +4,9 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/stephenjude/enums/Tests?label=tests)](https://github.com/stephenjude/enums/actions?query=workflow%3ATests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/stephenjude/enums.svg?style=flat-square)](https://packagist.org/packages/stephenjude/enums)
 
+If you have built a project where you create constants for variables like `success`, `pending`, `failed` so as to have consistency across your codebase then this package is for you. This constants inludes variables for gateways like `paystack`, `flutterwave`, `paypal` ETC. This package provides class variables that you can call statistically without instantiating the class. Example: `Status::PAYSTACK`, `Status::FLUTTWAVE`, `Status::PAYPAL`;
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/package-skeleton-php.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/package-skeleton-php)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+#### PS: If you have any variable that is not here please make a PR and I will gladly merge it.
 
 ## Installation
 
@@ -24,10 +17,47 @@ composer require stephenjude/enums
 ```
 
 ## Usage
+All the constants we have defined in this package are grouped into different class-based categories. Lets dive into it:
+
+### Status
 
 ```php
-$skeleton = new Stephenjude\Enums();
-echo $skeleton->echoPhrase('Hello, Stephenjude!');
+use Stephenjude\Enums\Status;
+
+Status::PENDING; //pending
+Status::SUCCESS; //success
+Status::FAILED; //failed
+Status::WARNING; //warning
+Status::ERROR; //error
+Status::PUBLISHED; //published
+Status::UNPUBLISHED; //unpublished
+Status::APPROVED; //approved
+Status::REJECTED; //rejected
+```
+### Gateway
+
+```php
+use Stephenjude\Enums\Gateway;
+
+Gateway::PAYPAL;  //paypal
+Gateway::STRIPE;  //stripe
+Gateway::BINANCE;  //binance
+Gateway::COINBASE;  //coinbase
+Gateway::PAYSTACK;  //paystack
+Gateway::FLUTTERWAVE;  //flutterwave
+Gateway::BUYPOWER_NG;  //buypowerng
+Gateway::BANK_TRANSFER;  //bank_transfer
+```
+### FileType
+
+```php
+use Stephenjude\Enums\FileType;
+
+FileType::VIDEO; //video
+FileType::AUDIO; //audio
+FileType::DOCUMENT; //document
+FileType::TEXT; //text
+FileType::PDF; //pdf
 ```
 
 ## Testing
