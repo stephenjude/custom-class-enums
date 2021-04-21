@@ -35,6 +35,7 @@ Status::APPROVED; //approved
 Status::REJECTED; //rejected
 Status::PROCESSING; //processing
 Status::COMPLETED; //completed
+Status::CANCELLED; //cancelled
 ```
 ### Gateway
 

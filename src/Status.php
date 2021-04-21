@@ -15,4 +15,5 @@ class Status
     public const REJECTED = 'rejected';
     public const PROCESSING = 'processing';
     public const COMPLETED = 'completed';
+    public const CANCELLED = 'cancelled';
 }
