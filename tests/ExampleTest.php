@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Stephenjude\Enums\Tests;
 
 use PHPUnit\Framework\TestCase;
 

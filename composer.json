@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "stephenjude/enums",
+    "description": "Custom Type Enum Constants",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "stephenjude",
+        "enums"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/stephenjude/enums",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "stephenjude",
+            "email": "hello@stephenjude.me",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Stephenjude\\Enums\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Stephenjude\\Enums\\Tests\\": "tests"
         }
     },
     "scripts": {
