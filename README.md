@@ -33,6 +33,8 @@ Status::PUBLISHED; //published
 Status::UNPUBLISHED; //unpublished
 Status::APPROVED; //approved
 Status::REJECTED; //rejected
+Status::PROCESSING; //processing
+Status::COMPLETED; //completed
 ```
 ### Gateway
 
@@ -59,7 +61,17 @@ FileType::DOCUMENT; //document
 FileType::TEXT; //text
 FileType::PDF; //pdf
 ```
+### Currency
 
+```php
+use Stephenjude\Enums\Currency;
+
+Currency::USD;  //usd
+Currency::CAD;  //cad
+Currency::EUR;  //eur
+Currency::GBP;  //gbp
+Currency::NGN;  //ngn
+```
 ## Testing
 
 ```bash

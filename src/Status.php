@@ -13,4 +13,6 @@ class Status
     public const UNPUBLISHED = 'unpublished';
     public const APPROVED = 'approved';
     public const REJECTED = 'rejected';
+    public const PROCESSING = 'processing';
+    public const COMPLETED = 'completed';
 }
