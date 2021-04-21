@@ -1,10 +1,10 @@
-# Custom Type Enum Constants
+# Custom Class Constants (Enums)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/stephenjude/enums.svg?style=flat-square)](https://packagist.org/packages/stephenjude/enums)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/stephenjude/enums/Tests?label=tests)](https://github.com/stephenjude/enums/actions?query=workflow%3ATests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/stephenjude/enums.svg?style=flat-square)](https://packagist.org/packages/stephenjude/enums)
 
-If you have built a project where you create constants for variables like `success`, `pending`, `failed` so as to have consistency across your codebase then this package is for you. This constants inludes variables for gateways like `paystack`, `flutterwave`, `paypal` ETC. This package provides class variables that you can call statistically without instantiating the class. Example: `Status::PAYSTACK`, `Status::FLUTTWAVE`, `Status::PAYPAL`;
+If you have built a project where you create constants for variables like `success` `pending` `failed` so as to have consistency across your codebase then this package is for you. This constants inludes variables for gateways like `paystack` `flutterwave` `paypal` ETC. This package provides class variables that you can call statistically without instantiating the class. Example: `Status::PAYSTACK` `Status::FLUTTWAVE` `Status::PAYPAL`;
 
 #### PS: If you have any variable that is not here please make a PR and I will gladly merge it.
 
