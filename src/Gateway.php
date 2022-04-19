@@ -12,4 +12,5 @@ class Gateway
     public const FLUTTERWAVE = 'flutterwave';
     public const BUYPOWER_NG = 'buypowerng';
     public const BANK_TRANSFER = 'bank_transfer';
+    public const WALLET = 'wallet';
 }
